@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC381D6A18983E61002B495B /* AddTasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC381D6918983E61002B495B /* AddTasksViewController.m */; };
 		ACE70779189750A800030AE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE70778189750A800030AE0 /* Foundation.framework */; };
 		ACE7077B189750A800030AE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE7077A189750A800030AE0 /* CoreGraphics.framework */; };
 		ACE7077D189750A800030AE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE7077C189750A800030AE0 /* UIKit.framework */; };
@@ -16,8 +17,6 @@
 		ACE7078B189750A800030AE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE7078A189750A800030AE0 /* AppDelegate.m */; };
 		ACE7078E189750A800030AE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE7078C189750A800030AE0 /* Main.storyboard */; };
 		ACE70791189750A800030AE0 /* Do_It2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACE7078F189750A800030AE0 /* Do_It2.xcdatamodeld */; };
-		ACE70794189750A800030AE0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE70793189750A800030AE0 /* MasterViewController.m */; };
-		ACE70797189750A800030AE0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE70796189750A800030AE0 /* DetailViewController.m */; };
 		ACE70799189750A800030AE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE70798189750A800030AE0 /* Images.xcassets */; };
 		ACE707A0189750A800030AE0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE7079F189750A800030AE0 /* XCTest.framework */; };
 		ACE707A1189750A800030AE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE70778189750A800030AE0 /* Foundation.framework */; };
@@ -25,6 +24,7 @@
 		ACE707A3189750A800030AE0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE7077E189750A800030AE0 /* CoreData.framework */; };
 		ACE707AB189750A800030AE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACE707A9189750A800030AE0 /* InfoPlist.strings */; };
 		ACE707AD189750A800030AE0 /* Do_It2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE707AC189750A800030AE0 /* Do_It2Tests.m */; };
+		ACE707B81897590D00030AE0 /* TasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE707B71897590D00030AE0 /* TasksViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC381D6818983E61002B495B /* AddTasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddTasksViewController.h; path = ../AddTasksViewController.h; sourceTree = "<group>"; };
+		AC381D6918983E61002B495B /* AddTasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddTasksViewController.m; path = ../AddTasksViewController.m; sourceTree = "<group>"; };
 		ACE70775189750A800030AE0 /* Do-It2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do-It2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE70778189750A800030AE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACE7077A189750A800030AE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,16 +53,14 @@
 		ACE7078A189750A800030AE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ACE7078D189750A800030AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACE70790189750A800030AE0 /* Do_It2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Do_It2.xcdatamodel; sourceTree = "<group>"; };
-		ACE70792189750A800030AE0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		ACE70793189750A800030AE0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		ACE70795189750A800030AE0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		ACE70796189750A800030AE0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		ACE70798189750A800030AE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ACE7079E189750A800030AE0 /* Do-It2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Do-It2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE7079F189750A800030AE0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		ACE707A8189750A800030AE0 /* Do-It2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Do-It2Tests-Info.plist"; sourceTree = "<group>"; };
 		ACE707AA189750A800030AE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACE707AC189750A800030AE0 /* Do_It2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Do_It2Tests.m; sourceTree = "<group>"; };
+		ACE707B61897590D00030AE0 /* TasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksViewController.h; sourceTree = "<group>"; };
+		ACE707B71897590D00030AE0 /* TasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,11 +125,11 @@
 			children = (
 				ACE70789189750A800030AE0 /* AppDelegate.h */,
 				ACE7078A189750A800030AE0 /* AppDelegate.m */,
+				ACE707B61897590D00030AE0 /* TasksViewController.h */,
+				ACE707B71897590D00030AE0 /* TasksViewController.m */,
+				AC381D6818983E61002B495B /* AddTasksViewController.h */,
+				AC381D6918983E61002B495B /* AddTasksViewController.m */,
 				ACE7078C189750A800030AE0 /* Main.storyboard */,
-				ACE70792189750A800030AE0 /* MasterViewController.h */,
-				ACE70793189750A800030AE0 /* MasterViewController.m */,
-				ACE70795189750A800030AE0 /* DetailViewController.h */,
-				ACE70796189750A800030AE0 /* DetailViewController.m */,
 				ACE70798189750A800030AE0 /* Images.xcassets */,
 				ACE7078F189750A800030AE0 /* Do_It2.xcdatamodeld */,
 				ACE70781189750A800030AE0 /* Supporting Files */,
@@ -263,11 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACE70797189750A800030AE0 /* DetailViewController.m in Sources */,
-				ACE70794189750A800030AE0 /* MasterViewController.m in Sources */,
 				ACE70791189750A800030AE0 /* Do_It2.xcdatamodeld in Sources */,
+				ACE707B81897590D00030AE0 /* TasksViewController.m in Sources */,
 				ACE7078B189750A800030AE0 /* AppDelegate.m in Sources */,
 				ACE70787189750A800030AE0 /* main.m in Sources */,
+				AC381D6A18983E61002B495B /* AddTasksViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +476,7 @@
 				ACE707B2189750A800030AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACE707B3189750A800030AE0 /* Build configuration list for PBXNativeTarget "Do-It2Tests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +485,7 @@
 				ACE707B5189750A800030AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
